@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="signup" href="/signup.html">
+    <link rel="login" href="/login.html">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Smallshop</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1> Headline </h1>
+            <p>"Life happens to everyone, but who says you can't look good while it does?"</p>
+            <div class="buttons-container">
+                <a href="/signup.html">
+                    <button class="signup-button">Sign Up</button>
+                </a>
+                <a href="/login.html">
+                    <button class="login-button">Login</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Men" class="men-section">
+        <h2>Men's Wears</h2>
+        <div class="feature-item">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <img src="/images/men.jpeg" alt="Men's Wear">
+            <h3>Men section</h3>
+        </div>
+        <div class="dscription">
+            <h3>Men section</h3>
+            <p>Welcome to our collection of stylish and comfortable men's wears.
+            Discover the latest trends in men's fashion and elevate your wardrobe with our curated selection of clothing and accessories.</p>
+        </div>
+    </section>
+    
+    <section id="Women" class="women-section">
+        <h2>Women's Wears</h2>
+        <div class="feature-item">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+            <img src="/images/women5.png" alt="Women's Wear">
+        </div>
+        <div class="dscription">
+            <h3>Women Section</h3>
+            <p>Explore our fabulous collection of women's wears that combines style and comfort. 
+            Discover the latest trends in women's fashion, designed to empower and inspire you.
+            From casual to elegant, we have something for every occasion.</p>
+        </div>
+    </section> 
+    
+    <section id="Unisex" class="unisex-section">
+        <h2>Unisex</h2>
+        <div class="feature-item">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+            <img src="/images/unisex.png" alt="Unisex Wear">
+        </div>
+        <div class="dscription">
+            <h3>Unisex</h3>
+            <p>Discover our versatile collection of unisex wears that transcends traditional gender norms. 
+            Our unisex clothing is designed for everyone, blending style, comfort, and inclusivity. 
+            Embrace fashion that knows no boundaries and express yourself with confidence.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a passionate team dedicated to bringing you the best products and services</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact us!</p>
+        <form id="form" method="post">
+            <label for="title">
+                Title:
+                <input type="text" name="title" id="title" placeholder="Enter Your Title">
+            </label>
+            <label for="fullName">
+                Full Name:
+                <input type="text" name="fullName" id="fullName" placeholder="Enter Your Full Name">
+            </label>
+            <label for="senderEmail">
+                Sender Email:
+                <input type="text" name="senderEmail" id="senderEmail" placeholder="Enter Your Email">
+            </label>
+            <label for="content">
+                Content:
+                <textarea id="content" name="content" cols="30" rows="10" placeholder="Enter mail content"></textarea>
+            </label>
+            <button type="submit">Send Mail</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Smallshop 2024</p>
+    </footer>
+
+    <script src="http://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

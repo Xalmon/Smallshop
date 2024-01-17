@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+</head>
+<body>
+    <div id="main-div">
+        <div id="hero">
+            <h1 class="company-name">Smallshop</h1>
+            <div class="nav">
+                <a href="#Home">Home</a>
+                <a href="#Men">Men</a>
+                <a href="#Women">Women</a>
+                <a href="#Unisex">Unisex</a>
+                <a href="#Help">Help</a>
+            </div>
+            <div>
+                <img class="icon" src="images/Search_light.png" alt="search">
+                <img class="icon" src="images/Bag_alt_light.png" alt="bag bar" onclick="showComingSoon()">
+                <img class="icon" src="images/User_alt_light.png" alt="user">                
+            </div>
+        </div>
+        <div id="searchResults"></div>
+        <div class="name">
+            <h1>Yesterday is History, Tomorrow Is a Mystery but Today is a Gift that is why it's called Present</h1>
+            <h2>Welcome to Smallshop</h2>
+        </div>
+        <div id="collection-second-div">
+            <div id="collection-images">
+                <div class="collection-row">
+                    <div class="collection-row-first-image-1">
+                        <img src="/assets/images/Rectangle 105.png" alt="picture">
+                        <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                        <img src="/assets/images/Rectangle 106.png" alt="picture">
+                        <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                    </div>
+
+                   <div class="collection-row-first-image-2">
+                        <img src="/assets/images/Rectangle 105 (1).png" alt="picture">
+                        <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                        <p class="second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                        <img src="/assets/images/Rectangle 106 (1).png" alt="picture">
+                        <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                    </div>
+
+                    <div class="collection-row-first-image-3">
+                        <img src="/assets/images/Rectangle 105 (2).png" alt="picture">
+                        <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                        <p class="second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                   
+                        <img src="/assets/images/Rectangle 106 (copy).png" alt="picture">
+                        <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                    </div>
+            </div>
+            <div id="collection-button">
+                <button id="load-more" type="button" onclick="toggleCollection()">Load More</button>
+                <div id="collection-dropdown" class="hidden">
+                    <div class="collection-row">
+                        <div class="collection-row-first-image-4">
+                            <img src="/assets/images/Rectangle 107.png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-second-image">
+                            <img src="/assets/images/Rectangle 108.png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-first-image-5">
+                            <img src="/assets/images/Rectangle 105 (1).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-second-image">
+                            <img src="/assets/images/Rectangle 107 (1).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-first-image-6">
+                            <img src="/assets/images/Rectangle 107 (2).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-second-image">
+                            <img src="/assets/images/Rectangle 108 (2).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                    </div>
+                    <div class="collection-row">
+                        <div class="collection-row-first-image-7">
+                            <img src="/assets/images/Rectangle 107 (2).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-second-image">
+                            <img src="/assets/images/Rectangle 108 (2).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-first-image-2">
+                            <img src="/assets/images/Rectangle 105 (1).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                        <div class="collection-row-second-image">
+                            <img src="/assets/images/Rectangle 106 (1).png" alt="picture">
+                            <p class="collection-first-text">Teddy Oversized T-Shirt for Women</p>
+                            <p class="collection-second-text">#4000</p>
+                            <button onclick="addToCart()">Add</button>
+                            <button onclick="removeFromCart()">Remove</button>
+                        </div>
+                    </div>
+                    <div class="Men-collection">
+                        <img src="/images/men2.png" alt="picture">
+                        <p class="collection-first-text">Cloths For Men</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                    </div>
+                    <div class="Men-collection">
+                        <img src="/images/men3.png" alt="picture">
+                        <p class="collection-first-text">Cloths For Men</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                    </div>
+                    <div class="Men-collection">
+                        <img src="/images/men4.jpg" alt="picture">
+                        <p class="collection-first-text">Cloths For Men</p>
+                        <p class="collection-second-text">#4000</p>
+                        <button onclick="addToCart()">Add</button>
+                        <button onclick="removeFromCart()">Remove</button>
+                    </div>
+                </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

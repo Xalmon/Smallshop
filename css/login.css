@@ -33,9 +33,22 @@ form {
 
 h2 {
     text-align: center;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
 
 h1{
     font-size: small;
+    color: #ffffff;
 }
+
+a {
+    color: #3498db; 
+    text-decoration: none;
+    display: block;
+    margin-top: 10px; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

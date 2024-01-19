@@ -36,3 +36,14 @@ h2 {
     color: whitesmoke;
 }
 
+a {
+    color: #3498db; 
+    text-decoration: none;
+    display: block;
+    margin-top: 10px; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

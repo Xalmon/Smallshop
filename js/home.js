@@ -1,21 +1,3 @@
-function addToCart() {
-    console.log('Item added to cart');
-}
-
-function removeFromCart() {
-    console.log('Item removed from cart');
-}
-
-var addToCartButtons = document.querySelectorAll('.add-to-cart-button');
-addToCartButtons.forEach(function (button) {
-    button.addEventListener('click', addToCart);
-});
-
-var removeFromCartButtons = document.querySelectorAll('.remove-from-cart-button');
-removeFromCartButtons.forEach(function (button) {
-    button.addEventListener('click', removeFromCart);
-});
-
 function showComingSoon() {
     var bagIcon = document.querySelector('.icon');
     bagIcon.alt = 'bag bar';
@@ -54,7 +36,7 @@ function hideComingSoon() {
 var buyNowButton = document.querySelector('.services_btn1 button');
 buyNowButton.addEventListener('click', showComingSoon);
 
-function redirectToSignup() {
+function Signup() {
     alert('signup or login');
     window.location.href = "signup.html";
 }

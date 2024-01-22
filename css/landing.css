@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+.collection-button{
+  color: #000;
+}
+
 .navbar {
     background: #fff;
     height: 80px;

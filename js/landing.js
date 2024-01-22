@@ -88,7 +88,7 @@ removeFromCartButtons.forEach(function (button) {
     button.addEventListener('click', removeFromCart);
 });
 
-function showSearch() {
+function Search() {
     var searchContainer = document.getElementById('search-container');
     searchContainer.style.display = (searchContainer.style.display === 'block') ? 'none' : 'block';
 
@@ -107,12 +107,15 @@ function showSearch() {
     });
 }
 
-function redirectToPayment() {
+function Payment() {
     alert('Welcome');
     window.location.href = "EandPay.html";
 }
 
 
-
+function logout() {
+    alert('Logging Out, GoodBye!')
+    window.location.href = "home.html";
+}
 
 

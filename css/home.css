@@ -149,23 +149,16 @@
 
 .hero_description {
   font-size: 60px;
-  background: #da22ff; 
-  background: -webkit-linear-gradient(
-    to right,
-    #9114ff,
-    #da22ff
-  ); 
-  background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); 
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+  background: linear-gradient(to right, #8f0eff, #da22ff);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
 
 .highlight {
   border-bottom: 4px solid rgb(132, 0, 255);

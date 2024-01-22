@@ -97,3 +97,8 @@ function displayBankOwner(accountDetails) {
         resultDiv.innerHTML = "<p class='error'>Unable to retrieve account details</p>";
     }
 }
+
+function Home() {
+    alert('Welcome Back');
+    window.location.href = "landing.html";
+}

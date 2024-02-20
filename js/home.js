@@ -38,5 +38,5 @@ buyNowButton.addEventListener('click', showComingSoon);
 
 function Signup() {
     alert('signup or login');
-    window.location.href = "signup.html";
+    window.location.href = "login&signup.html";
 }

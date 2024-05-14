@@ -332,20 +332,20 @@
     flex-direction: column;
     justify-content: center;
     color: #000000;
-    background-image: url('/images/men4.jpg');
+    background-image: url('/assets/images/men4.jpg');
     transition: 0.3s ease-in;
   }
   
   .services_card:nth-child(2) {
-    background-image: url('/images/women2.png');
+    background-image: url('/assets/images/women2.png');
   }
   
   .services_card:nth-child(3) {
-    background-image: url('/images/unisex3.png');
+    background-image: url('/assets/images/unisex3.png');
   }
 
   .services_card:nth-child(4) {
-    background-image: url('/images/children.webp');
+    background-image: url('/assets/images/children.webp');
   }
   
   .services_card h2 {

@@ -44,6 +44,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ## Support
 
-For any questions or assistance, please contact our support team at support@smallshop.com.
+For any questions or assistance, please contact our support team at xalmonoyefule@gmail.com.
 
 Thank you for choosing Smallshop! Happy selling!
